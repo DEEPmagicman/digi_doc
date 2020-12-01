@@ -72,17 +72,6 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/spec" />
 
-  <Button
-      android:id="@+id/btnRegisterD"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="28dp"
-      android:text="Register"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.498"
-      app:layout_constraintStart_toStartOf="parent" />
-
   <TextView
       android:id="@+id/textView9"
       android:layout_width="wrap_content"
@@ -123,5 +112,19 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/timeFromD"
       app:layout_constraintVertical_bias="0.056" />
+
+
+  <Button
+      android:id="@+id/btnRegisterD"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="28dp"
+      android:text="Register"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      android:onClick="register_doctor"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
